@@ -1,4 +1,4 @@
-[![Gem Version](https://badge.fury.io/rb/masu.svg)](https://badge.fury.io/rb/masu)
+[![Gem Version](https://badge.fury.io/rb/masu.svg)](https://rubygems.org/gems/ketsuban)
 [![Coverage Status](https://coveralls.io/repos/github/akinov/masu/badge.svg?branch=master)](https://coveralls.io/github/akinov/masu?branch=master)
 
 

@@ -3,7 +3,7 @@ RSpec.describe Masu do
     expect(Masu::VERSION).not_to be nil
   end
 
-  it "does something useful" do
-    expect(false).to eq(true)
+  it "Enclose text in a frame" do
+    expect('hote'.to_masu).to eq("┌----┐\n│hote│\n└----┘\n")
   end
 end

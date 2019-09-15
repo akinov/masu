@@ -1,3 +1,7 @@
+[![Gem Version](https://badge.fury.io/rb/masu.svg)](https://badge.fury.io/rb/masu)
+[![Coverage Status](https://coveralls.io/repos/github/akinov/masu/badge.svg?branch=master)](https://coveralls.io/github/akinov/masu?branch=master)
+
+
 # Masu
 
 Enclose text in a frame!

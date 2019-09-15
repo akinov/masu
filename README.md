@@ -22,7 +22,18 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+
+irb:001:0> 'hoge'.to_masu
+=> "┌----┐\n│hoge│\n└----┘\n"
+
+irb:002:0> puts 'hoge'.to_masu
+┌----┐
+│hoge│
+└----┘
+=> nil
+
+```
 
 ## Development
 

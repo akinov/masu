@@ -26,6 +26,8 @@ Or install it yourself as:
 
 ## Usage
 
+### Default usage
+
 ```ruby
 
 irb:001:0> 'hoge'.to_masu
@@ -37,6 +39,16 @@ irb:002:0> puts 'hoge'.to_masu
 └----┘
 => nil
 
+```
+
+### Additional Masu type
+
+```ruby
+irb:001:0> puts '突然の死'.to_masu :totsuzen
+＿人人人人＿
+＞ 突然の死 ＜
+￣Y^Y^Y^Y￣
+=> nil
 ```
 
 ## Development

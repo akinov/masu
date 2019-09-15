@@ -1,5 +1,8 @@
 # Change Log
 
+## [v0.2.0](https://github.com/akinov/masu/tree/v0.2.0) (2019-09-15)
+[Full Changelog](https://github.com/akinov/masu/compare/v0.1.0...v0.2.0)
+
 ## [v0.1.0](https://github.com/akinov/masu/tree/v0.1.0) (2019-09-15)
 
 

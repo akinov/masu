@@ -6,11 +6,11 @@ Gem::Specification.new do |spec|
   spec.name          = "masu"
   spec.version       = Masu::VERSION
   spec.authors       = ["akinov"]
-  spec.email         = ["ayumoto10@gmail.com"]
+  spec.email         = ["ayumoto10+masu@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Enclose text in a frame}
+  spec.description   = %q{Enclose text in a frame}
+  spec.homepage      = "https://github.com/akinov/masu"
   spec.license       = "MIT"
 
   spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"

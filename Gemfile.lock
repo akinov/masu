@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    masu (0.1.0)
+    masu (0.2.0)
 
 GEM
   remote: https://rubygems.org/

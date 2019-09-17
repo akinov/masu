@@ -17,18 +17,27 @@ module Masu
 
   def to_masu_default
     <<~EOS
-      ┌#{'-' * length}┐
+      ┌#{'-' * width}┐
       │#{self}│
-      └#{'-' * length}┘
+      └#{'-' * width}┘
     EOS
   end
 
   def to_masu_totsuzen
+    padding = 1
+    fullwidth_size = (width / 2.0).ceil + padding
+
     <<~EOS
-      ＿#{'人' * length}＿
-      ＞ #{self} ＜
-      ￣#{('Y^' * length).delete_suffix('^')}￣
+      ＿#{'人' * fullwidth_size}＿
+      ＞#{' ' * padding}#{self}#{' ' * padding}＜
+      ￣#{('Y^' * fullwidth_size).delete_suffix('^')}￣
     EOS
+  end
+
+  # Return string width.
+  # A fullwidth char width is 2 and a halfwidth is 1.
+  def width
+    chars.inject(0) { |length, char| length + (char.bytesize == 1 ? 1 : 2) }
   end
 end
 

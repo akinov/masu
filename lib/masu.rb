@@ -44,3 +44,7 @@ end
 class String
   prepend Masu
 end
+
+class Integer
+  prepend Masu
+end

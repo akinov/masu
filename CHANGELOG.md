@@ -1,5 +1,16 @@
 # Change Log
 
+## [v0.3.0](https://github.com/akinov/masu/tree/v0.3.0) (2019-10-01)
+[Full Changelog](https://github.com/akinov/masu/compare/v0.2.0...v0.3.0)
+
+**Merged pull requests:**
+
+- version up to 0.3.0 [\#5](https://github.com/akinov/masu/pull/5) ([akinov](https://github.com/akinov))
+- Integer prepend Masu [\#4](https://github.com/akinov/masu/pull/4) ([koheisg](https://github.com/koheisg))
+- edit .coveralls.yml [\#3](https://github.com/akinov/masu/pull/3) ([akinov](https://github.com/akinov))
+- bundle install [\#2](https://github.com/akinov/masu/pull/2) ([akinov](https://github.com/akinov))
+- Fix full-width chars [\#1](https://github.com/akinov/masu/pull/1) ([oieioi](https://github.com/oieioi))
+
 ## [v0.2.0](https://github.com/akinov/masu/tree/v0.2.0) (2019-09-15)
 [Full Changelog](https://github.com/akinov/masu/compare/v0.1.0...v0.2.0)
 

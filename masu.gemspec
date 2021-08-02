@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.name          = "masu"
   spec.version       = Masu::VERSION
   spec.authors       = ["akinov"]
-  spec.email         = ["ayumoto10+masu@gmail.com"]
+  spec.email         = ["akinov.developer+masu@gmail.com"]
 
   spec.summary       = %q{Enclose text in a frame}
   spec.description   = %q{Enclose text in a frame}
